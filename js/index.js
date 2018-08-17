@@ -11853,7 +11853,7 @@ function setupWeatherData() {
       bg: textureFalloutBg
     }),
     drizzle: weather({
-      rainChance: 0.15,
+      rainChance: 0.5,
       rainLimit: 2,
       drizzle: 10,
       fg: textureDrizzleFg,
