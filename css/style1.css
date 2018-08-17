@@ -1,6 +1,10 @@
 
 
 
+#container {
+	max-width: 400px !important;
+}
+
 .slideshow {
 	position: relative;
 	height: 100vh;
