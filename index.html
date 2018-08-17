@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="app/css/style.css">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rain Effect Experiments | Demo 1 | Codrops</title>
+	<meta name="description" content="Some WebGL experiments with raindrop effects" />
+	<meta name="keywords" content="webgl, raindrops, effect, rain, web, video, background" />
+	<meta name="author" content="Lucas Bebber for Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/style1.css" />
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 </head>
-<body>
+
+<body class="demo-1">
 	<div class="image-preload">
 		<img src="img/drop-color.png" alt="">
 		<img src="img/drop-alpha.png" alt="">
@@ -18,7 +32,6 @@
 		<img src="img/weather/texture-drizzle-fg.png" />
 		<img src="img/weather/texture-drizzle-bg.png" />
 	</div>
-
 	<div class="container">
 		<header class="codrops-header">
 			<div class="codrops-links">
@@ -69,9 +82,8 @@
 		</div>
 		<p class="nosupport">Sorry, but your browser does not support WebGL!</p>
 	</div>
-
-	<script type="text/javascript" src="js/index.js"></script> 
-	<script type="text/javascript" src="app/scripts/vendor.js"></script>
-	<script type="text/javascript" src="app/scripts/scripts.min.js"></script>
+	<!-- /container -->
+	<script src="js/index.min.js"></script>
 </body>
+
 </html>
