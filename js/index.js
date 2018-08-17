@@ -11827,7 +11827,7 @@ function setupWeatherData() {
       drizzle: 50,
       raining: true,
       fg: textureRainFg,
-      bg: textureRainBg
+      bg: textureRainFg 
     }),
     storm: weather({
       minR: 20,
