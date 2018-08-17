@@ -11854,7 +11854,7 @@ function setupWeatherData() {
     }),
     drizzle: weather({
       rainChance: 0.55,
-      rainLimit: 120,
+      rainLimit: 20, 
       drizzle: 10,
       fg: textureDrizzleFg,
       bg: textureDrizzleBg
