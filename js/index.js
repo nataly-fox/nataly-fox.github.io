@@ -11697,7 +11697,18 @@ var curWeatherData = null;
 var blend = { v: 0 };
 
 function loadTextures() {
-  (0, _imageLoader2["default"])([{ name: "dropAlpha", src: "img/drop-alpha.png" }, { name: "dropColor", src: "img/drop-color.png" }, { name: "textureRainFg", src: "img/weather/texture-rain-fg.png" }, { name: "textureRainBg", src: "img/weather/texture-rain-bg.png" }, { name: "textureStormLightningFg", src: "img/weather/texture-storm-lightning-fg.png" }, { name: "textureStormLightningBg", src: "img/weather/texture-storm-lightning-bg.png" }, { name: "textureFalloutFg", src: "img/weather/texture-fallout-fg.png" }, { name: "textureFalloutBg", src: "img/weather/texture-fallout-bg.png" }, { name: "textureSunFg", src: "img/weather/texture-sun-fg.png" }, { name: "textureSunBg", src: "img/weather/texture-sun-bg.png" }, { name: "textureDrizzleFg", src: "img/weather/texture-drizzle-fg.png" }, { name: "textureDrizzleBg", src: "img/weather/texture-drizzle-bg.png" }]).then(function (images) {
+  (0, _imageLoader2["default"])([{ name: "dropAlpha", src: "img/drop-alpha.png" }, { name: "dropColor", 
+    src: "img/drop-color.png" }, 
+    { name: "textureRainFg", src: "img/1.png" }, 
+    { name: "textureRainBg", src: "img/1.png" }, 
+    { name: "textureStormLightningFg", src: "img/weather/texture-storm-lightning-fg.png" }, 
+    { name: "textureStormLightningBg", src: "img/weather/texture-storm-lightning-bg.png" }, 
+    { name: "textureFalloutFg", src: "img/weather/texture-fallout-fg.png" }, 
+    { name: "textureFalloutBg", src: "img/weather/texture-fallout-bg.png" }, 
+    { name: "textureSunFg", src: "img/weather/texture-sun-fg.png" }, 
+    { name: "textureSunBg", src: "img/weather/texture-sun-bg.png" }, 
+    { name: "textureDrizzleFg", src: "img/weather/texture-drizzle-fg.png" }, 
+    { name: "textureDrizzleBg", src: "img/weather/texture-drizzle-bg.png" }]).then(function (images) {
     textureRainFg = images.textureRainFg.img;
     textureRainBg = images.textureRainBg.img;
 
