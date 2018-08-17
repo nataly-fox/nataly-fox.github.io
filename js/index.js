@@ -11827,7 +11827,7 @@ function setupWeatherData() {
       drizzle: 50,
       raining: true,
       fg: textureRainFg,
-      bg: textureRainFg 
+      bg: textureRainBg
     }),
     storm: weather({
       minR: 20,
@@ -11857,7 +11857,7 @@ function setupWeatherData() {
       rainLimit: 2,
       drizzle: 10,
       fg: textureDrizzleFg,
-      bg: textureDrizzleFg 
+      bg: textureDrizzleBg
     }),
     sunny: weather({
       rainChance: 0,
