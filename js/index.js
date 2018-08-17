@@ -11699,8 +11699,8 @@ var blend = { v: 0 };
 function loadTextures() {
   (0, _imageLoader2["default"])([{ name: "dropAlpha", src: "img/drop-alpha.png" }, { name: "dropColor", 
     src: "img/drop-color.png" }, 
-    {name:"textureRainFg",src:"img/weather/texture-rain-fg.png"},
-    {name:"textureRainBg",src:"img/weather/texture-rain-fg.png"}, 
+    {name:"textureRainFg",src:"img/weather/texture-storm-lightning-fg.png"}, 
+    {name:"textureRainBg",src:"img/weather/texture-storm-lightning-fg.png"}, 
     { name: "textureStormLightningFg", src: "img/weather/texture-storm-lightning-fg.png" }, 
     { name: "textureStormLightningBg", src: "img/weather/texture-storm-lightning-bg.png" }, 
     { name: "textureFalloutFg", src: "img/weather/texture-fallout-fg.png" }, 
