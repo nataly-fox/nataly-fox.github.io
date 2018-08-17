@@ -11692,8 +11692,8 @@ var raindrops = undefined,
 
 var parallax = { x: 0, y: 0 };
 
-var weatherData = null;
-var curWeatherData = null;
+var weatherData = "rain";
+var curWeatherData = "rain";
 var blend = { v: 0 };
 
 function loadTextures() {
